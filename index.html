@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+      <header   > <!-- entete-->
+              <img class="logo" width="50px" src="./images/logo.png" alt="">
+          <nav> <!-- navigation-->
+              <ul class="menu"> <!-- display flex-->
+                  <li > <a class="lien" href="#">Acceuil</a> </li>
+                  <li><a class="lien" href="#">About</a> </li>
+                  <li><a  class="lien" href="#">Contact</a> </li>
+              </ul>
+          </nav>
+      </header>
+
+      <section>
+         <h1 class="titre-sec">Liste Article</h1>
+         <div class="sec1">
+            <div id="rouge taille"> 
+               1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum incidunt voluptatem modi totam autem impedit accusantium culpa numquam error reiciendis, ipsum quisquam magnam aliquid doloremque mollitia consequuntur officiis blanditiis doloribus.
+             </div>
+             <div class="jaune">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, quam voluptas deserunt blanditiis ratione, magni ex numquam, recusandae voluptatem nam assumenda architecto eum! Aliquam, placeat adipisci. Sunt numquam soluta exercitationem.
+             </div>
+             <div class="bleu">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eaque?
+             </div>
+         </div>
+         
+           
+      </section>
+
+       
+       
+   
+      
+      
+<style>
+    #taille{
+        font-weight: bold;
+        font-size: 10px;
+    }
+    #bleu{
+        background-color: blue;
+    }
+    .titre-sec{
+        color: blue;
+        text-align: center;
+    }
+    .sec1{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+    }
+    #rouge{
+        background-color: red;
+    }
+    .jaune{
+        background-color: yellow;
+    }
+
+
+
+
+
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+     
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: bisque;
+        
+    }
+    header nav ul li{
+        list-style-type: none;
+    }
+   .lien{
+        text-decoration: none;
+    }
+    .logo{
+        
+        padding: 5px 5px;
+    }
+    header nav ul{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10px;
+    }
+
+</style>
+  
+</body>
+</html>
